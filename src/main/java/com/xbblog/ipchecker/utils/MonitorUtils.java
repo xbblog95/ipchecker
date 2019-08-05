@@ -5,7 +5,7 @@ import org.apache.commons.net.telnet.TelnetClient;
 
 public class MonitorUtils {
 
-    private final static int TIMEOUT = 5 * 1000;
+    private final static int TIMEOUT = 10 * 1000;
     public static long testTCPActive(String host, int port){
         TelnetClient telnet = new TelnetClient("VT220");
         try
